@@ -1,0 +1,27 @@
+# ACP Multi-Agent Orchestration Demo - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core ACP and Agent Framework Dependencies
+acp-sdk>=1.0.0
+smolagents>=1.20.0
+litellm>=1.74.0
+
+# LangChain and LangGraph Dependencies  
+langchain-core>=0.3.68
+langchain-openai>=0.3.27
+langchain-mcp-adapters>=0.1.9
+langgraph
+
+# FastMCP for Model Control Protocol
+fastmcp>=2.10.5
+
+# Web Search and Tools
+duckduckgo-search>=8.1.1
+
+# Utility Dependencies
+colorama>=0.4.6
+nest-asyncio>=1.6.0
+
+# Standard Library Dependencies (usually included with Python)
+# json, re, asyncio, subprocess, dataclasses, enum, typing
+# importlib, yaml, random, time, datetime, functools, collections
